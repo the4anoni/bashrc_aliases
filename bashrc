@@ -2,4 +2,4 @@ alias update="DEBIAN_FRONTEND=noninteractive sudo apt update && sudo apt full-up
 alias freemem="free -mh --si"
 alias clip="xsel --clipboard --input"
 alias uptime="uptime --pretty"
-alias sync_watch="watch -n 1 grep -e Dirty: /proc/meminfo"
+alias syncwatch="watch -n 1 grep -e Dirty: /proc/meminfo"
